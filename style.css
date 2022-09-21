@@ -37,6 +37,8 @@ form {
   justify-content: center;
   margin: 0px auto;
   width: 70%;
+  box-shadow: 0 10px 8px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
 }
 
 form div {
