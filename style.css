@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  padding: 20px 0;
+  text-align: center;
+  line-height: 30px;
+  background-color: #e60c2c;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+main {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: #ccc; */
+}
+
+form {
+  padding: 30px 50px;
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px auto;
+  width: 70%;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+label {
+  width: 40%;
+  text-transform: uppercase;
+}
+
+#nama {
+  margin-right: 180px;
+}
+
+#ttl {
+  margin-right: 110px;
+}
+
+#unit {
+  margin-right: 126px;
+}
+
+#desa {
+  margin-right: 157px;
+}
+
+#kec {
+  margin-right: 205px;
+}
+
+#telp {
+  margin-right: 162px;
+}
+
+input {
+  background-color: #fff;
+  border: none;
+  width: 60%;
+  height: 20px;
+}
+
+.lomba {
+  display: flex;
+  justify-content: flex-start;
+}
+
+ol li {
+  list-style: none;
+}
+
+form p {
+  margin-top: 20px;
+}
+
+.bottom {
+  margin: 50px auto;
+  width: 60vw;
+}
+
+.tgl {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.ttd {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.ttd div {
+  border-bottom: 3px dashed black;
+}
